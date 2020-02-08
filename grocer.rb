@@ -101,9 +101,11 @@ while clearenced_cart.length > counter do
   cart_total += clearenced_cart[counter][:price]
 counter += 1
 end 
-if cart_total >= 100
+if cart_total > 100
+  cart_total = (cart_total * 0.9).round(2)
   
 end
+cart_total
 end
   # Consult README for inputs and outputs
   #
