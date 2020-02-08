@@ -97,7 +97,7 @@ def checkout(cart, coupons)
 counter = 0 
 cart_total = 0 
 
-while clearenced_cart > counter do 
+while clearenced_cart.length > counter do 
   cart_total += clearenced_cart[counter][:price]
 counter += 1
 end 
