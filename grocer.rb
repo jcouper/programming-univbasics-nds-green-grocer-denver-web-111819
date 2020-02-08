@@ -98,7 +98,7 @@ counter = 0
 cart_total = 0 
 
 while clearenced_cart > counter do 
-  cart_total += clearenced_cart[count][:price]
+  cart_total += clearenced_cart[counter][:price]
 counter += 1
 end 
 binding.pry 
