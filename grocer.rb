@@ -101,8 +101,9 @@ while clearenced_cart.length > counter do
   cart_total += clearenced_cart[counter][:price]
 counter += 1
 end 
-binding.pry 
-cart_total
+if cart_total >= 100
+  
+end
 end
   # Consult README for inputs and outputs
   #
