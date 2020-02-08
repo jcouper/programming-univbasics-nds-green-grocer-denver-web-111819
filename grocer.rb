@@ -81,6 +81,7 @@ def apply_clearance(cart)
    if is_current_item_on_clearance 
      current_product_details[:price] = twenty_percent_off_item
     end
+    counter +=1
  end 
  cart
  end
