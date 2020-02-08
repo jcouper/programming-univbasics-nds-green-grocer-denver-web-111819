@@ -102,7 +102,7 @@ while clearenced_cart > counter do
 counter += 1
 end 
 binding.pry 
-
+cart_total
 end
   # Consult README for inputs and outputs
   #
