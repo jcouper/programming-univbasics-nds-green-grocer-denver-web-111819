@@ -94,8 +94,14 @@ def checkout(cart, coupons)
  couponeder_cart = apply_coupons(consolidated_cart, coupons)
  clearenced_cart = apply_clearance(couponeder_cart)
  
- binding.pry 
+counter = 0 
+cart_total = 0 
 
+while clearenced_cart > counter do 
+  cart_total += clearenced_cart[count][:price]
+counter += 1
+end 
+binding.pry 
 
 end
   # Consult README for inputs and outputs
