@@ -93,6 +93,8 @@ def checkout(cart, coupons)
  consolidated_cart = consolidate_cart(cart)
  couponeder_cart = apply_coupons(consolidated_cart, coupons)
  clearenced_cart = apply_clearance(couponeder_cart)
+ 
+ binding.pry 
 
 
 end
