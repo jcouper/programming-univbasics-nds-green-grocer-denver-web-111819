@@ -98,6 +98,7 @@ counter = 0
 cart_total = 0 
 
 while clearenced_cart.length > counter do 
+  current_item_price_total = (clearenced_cart[counter][:count] * clearenced_cart[counter][:price])
   cart_total += clearenced_cart[counter][:price]
 counter += 1
 end 
